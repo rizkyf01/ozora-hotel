@@ -80,16 +80,7 @@
   margin: auto;
 
 }
-@media only screen and (max-width: 480px) {
-  .judulutama img {
-    width: 70%; /* Logo lebih kecil lagi pada layar ponsel */
-    max-width: 300px; /* Batasi ukuran logo */
-  }
 
-  .slideshow-container img {
-    width: 100%;
-  }
-}
 /* Untuk mengatur transisi gambar */
 @keyframes fade {
   from {
@@ -280,7 +271,7 @@
 .background-color2 {
   background-color: rgba(89, 28, 119, 0.9); /* Sedikit transparansi agar background gambar tetap terlihat */
   border: 5px solid #ffffff;
-  width: 800px;
+  width: 990px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -370,7 +361,7 @@
 
   .background-color2 {
     width: 100%; /* Agar lebih responsif */
-
+    padding-bottom: 30px;
   }
 
   .mySlides2 img {
