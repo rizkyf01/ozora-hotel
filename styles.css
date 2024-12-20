@@ -34,6 +34,7 @@
   position: absolute; /* Menggunakan absolute agar menimpa konten lain */
   top: 378px;
 }
+
 .box img {
   display: block;
   width: 100%;
@@ -79,7 +80,12 @@
   margin: auto;
 
 }
-
+@media only screen and (max-width: 990px) {
+  .top img {
+    width: 80%; /* Sesuaikan ukuran logo dengan layar kecil */
+    max-width: 300px; /* Batasi ukuran maksimum logo */
+  }
+}
 /* Untuk mengatur transisi gambar */
 @keyframes fade {
   from {
@@ -360,7 +366,7 @@
 
   .background-color2 {
     width: 100%; /* Agar lebih responsif */
-    padding-bottom: 30px;
+
   }
 
   .mySlides2 img {
