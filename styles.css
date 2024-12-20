@@ -80,10 +80,14 @@
   margin: auto;
 
 }
-@media only screen and (max-width: 990px) {
-  .top img {
-    width: 80%; /* Sesuaikan ukuran logo dengan layar kecil */
-    max-width: 300px; /* Batasi ukuran maksimum logo */
+@media only screen and (max-width: 480px) {
+  .judulutama img {
+    width: 70%; /* Logo lebih kecil lagi pada layar ponsel */
+    max-width: 300px; /* Batasi ukuran logo */
+  }
+
+  .slideshow-container img {
+    width: 100%;
   }
 }
 /* Untuk mengatur transisi gambar */
