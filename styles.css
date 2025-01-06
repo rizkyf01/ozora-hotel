@@ -96,9 +96,14 @@
 .isi1 {
   background-image: url(img/bg1.png);
   width: 990px;
-  float: center;
   display: block;
-  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 
 }
 
@@ -239,10 +244,7 @@
 /* BAGIAN ISI 2 */
 .isi2 {
   background-image: url(img/bg2.png);
-  float: center;
-  max-width: 990px;
-  width: 100%;
-  float: center;
+  width: 990px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -251,7 +253,6 @@
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
-  padding-bottom: 50px;
 
 }
 
@@ -270,7 +271,7 @@
 
 .background-color2 {
   background-color: rgba(89, 28, 119, 0.9); /* Sedikit transparansi agar background gambar tetap terlihat */
-  border: 5px solid #ffffff;
+  /* border: 5px solid #ffffff; */
   width: 990px;
   display: block;
   margin-left: auto;
@@ -397,9 +398,7 @@
 /* BAGIAN ISI 3 */
 .isi3 {
   background-image: url(img/bg1.png);
-  float: center;
   width: 990px;
-  float: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -408,7 +407,6 @@
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
-  padding-bottom: 50px;
 
 }
 
